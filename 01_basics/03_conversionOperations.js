@@ -11,6 +11,7 @@ let valueInNumber = Number(score)
 // "33" => 33
 // "33abc" => NaN   undefined => NaN null=> NaN    // type is always Number after conversion   
 //  true => 1; false => 0
+// "" => 0 and type is number
 
 let isLoggedIn = "vaibhav"
 
