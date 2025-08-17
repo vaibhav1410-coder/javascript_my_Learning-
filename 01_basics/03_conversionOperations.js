@@ -30,6 +30,8 @@ let stringNumber = String(someNumber)
 // console.log(typeof stringNumber);
 
 // 33 => 33 and type is String
+//null => null and type is String
+//undefined => undefined and type is String
 
 // *********************** Operations ***********************
 
