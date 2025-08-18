@@ -6,7 +6,7 @@
 
 
 // console.log("2" > 1);  //true as string "2" gets automatically converted to 2 number
-// console.log("02" > 1);
+// console.log("02" > 1); 
 
 //Make it a rule: It is Not good to compare different datatypes because the answer we get is not always predictable answer  
 
