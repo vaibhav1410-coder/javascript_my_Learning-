@@ -53,7 +53,7 @@ console.log(typeof myFunction);  //function   //called as object function
 let name = "ravi";
 let anotherName = name;
 
-let anotherName = "vaibhav";  //But only anotherName gets updated and name have same old value
+anotherName = "vaibhav";  //But only anotherName gets updated and name have same old value
 
 console.log(name);           //ravi 
 console.log(anotherName);   //vaibhav
