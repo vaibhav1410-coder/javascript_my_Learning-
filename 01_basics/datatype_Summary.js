@@ -41,3 +41,32 @@ console.log(typeof myFunction);  //function   //called as object function
 //All primitive datatypes are call by value. And Non primitive are call by reference
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//************************************************************************************************8
+//Types of Memory: 
+// Stack (Primitive)  , Heap (Non Primitive)
+
+//For Primitive datatypes, we have Stack memory, all primitive goes in Stack Memory. Similarly, all non-primitive goes in Heap memory.
+//Whatever goes in heap, we get its reference, when we try to assign its value to some other variable.
+//Whatever goes in stack, we get its copy of variable, when we try to assign its value to some other variable.
+
+let name = "ravi";
+let anotherName = name;
+
+let anotherName = "vaibhav";  //But only anotherName gets updated and name have same old value
+
+console.log(name);           //ravi 
+console.log(anotherName);   //vaibhav
+
+
+let user1 = {
+    email: "ravi@google.com",
+    upi: "abc@ypi"
+}
+
+let user2 = user1;
+
+user2.email = "vaibhav@google.com";
+
+console.log(user1);      //user1 will also gets new updated value   //vaibhav@google.com
+console.log(user2);      //vaibhav@google.com
