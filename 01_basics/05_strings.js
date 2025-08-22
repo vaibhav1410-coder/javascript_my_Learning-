@@ -38,3 +38,42 @@ console.log(url.replace('%20', '-'))    // https://vaibhav.com/vaibhav-results
 console.log(url.includes('sundar'))  //false
 
 console.log(gameName.split('-')); //[ 'vaibhav' , 'vv' , 'com' ]
+
+
+//**********************************************************************************************
+//Did More Practice
+const gameName = new String('vaibhav-cc-com');
+
+// console.log(gameName)
+// console.log(gameName[0]);
+// console.log(gameName.length)
+// console.log(gameName.__proto__) 
+// console.log(gameName.charAt(2))
+// console.log(gameName.indexOf('v'))
+
+// console.log(gameName.substr(0,4))
+
+// const anotherString = gameName.slice(-7,8)
+// console.log(anotherString)
+// console.log(gameName)
+
+// const newStringOne = "      vaibhav    "
+// console.log(newStringOne)
+// console.log(newStringOne.trim())
+
+// const url = "https://vaibhav.com/vaibhav%20results"
+
+// console.log(url.replace('%20','-'))
+// console.log(url.includes('av'))
+// const arr = gameName.split('-')
+// console.log(arr)
+// console.log(typeof arr)
+
+// const newString ="Abcd"
+// console.log(newString.charCodeAt(0))
+//console.log(newString.codePointAt(0))
+
+
+const newWord = "dog is barking.This dog should go somewhere";
+console.log(newWord.lastIndexOf("dog")); //20
+
