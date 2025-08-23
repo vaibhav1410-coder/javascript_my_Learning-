@@ -290,8 +290,9 @@ console.log(strIter.next());  //{ value: 'A', done: false }
 console.log(strIter.next().value); // "A"
 console.log(strIter.next().value); // "\uD835\uDC68"
 
-
-
+//String declaration using String Constructor  //rarely used 
+const name = String("vaibhav")
+console.log(name); //vaibhav
 
 
 
