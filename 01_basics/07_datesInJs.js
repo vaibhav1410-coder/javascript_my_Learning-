@@ -29,9 +29,9 @@ let myTimeStamp = Date.now()
 
 let newDate = new Date()
 console.log(newDate);                   //2025-09-03T14:23:54.183Z
-console.log(newDate.getMonth() + 1);    //9
+console.log(newDate.getMonth() + 1);    //9          //So, when we want to have some infomation and dont want to convert it to String, we can use functions like getMonth()
 console.log(newDate.getDay());          //3  //Here 3 means wednesday So, 1 is monday
-console.log(newDate.getYear() + 1900)     //2025   otherwise, 125
+console.log(newDate.getYear() + 1900)     //2025   otherwise, 125 
 
 // `${newDate.getDay()} and the time `        //3 and the time   //to show complex dates like this, we use string Interpolation like this
 //console.log(`${newDate.getDay()} and the time `)
