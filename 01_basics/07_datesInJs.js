@@ -7,6 +7,11 @@ let myDate = new Date()
 // console.log(myDate.toLocaleString());  // 9/3/2025, 1:42:56 PM
 // console.log(typeof myDate);        //object
 
+let date = new Date();
+
+console.log(date.toJSON())            //2025-09-03T15:36:30.148Z
+console.log(date.toISOString())       //2025-09-03T15:38:57.860Z 
+
 console.log(myDate.toLocaleDateString())  //9/3/2025
 console.log(myDate.toLocaleTimeString())  //1:49:49 PM
 
@@ -23,7 +28,7 @@ let myCreatedDate = new Date("01-14-2023")            //created mm-dd-yy format 
 
 let myTimeStamp = Date.now()
 
-// console.log(myTimeStamp);           //1756908778545   //This is time in milliseconds of now from Fixed Start Date 1 Jan 1990
+// console.log(myTimeStamp);           //1756908778545   //This is time in milliseconds of now from Fixed Start Date 1 Jan 1970
 // console.log(myCreatedDate.getTime());  //1673654400000    //for comparing Time, this milliseconds time from Fixed Start Date of ECMAScript must be compared
 // console.log(Math.floor(Date.now()/1000)); //To convert time in milliseconds to seconds, use Math.floor or Math.round but not use Math.ceil  //1756909295 
 
