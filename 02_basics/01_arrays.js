@@ -32,10 +32,10 @@ console.log("A ", myArr);
 
 const myn1 = myArr.slice(1, 3)      
 
-console.log(myn1);    [1,2]
+console.log(myn1);    [1,2]       //slice returns a shallow copy of a portion of an array without modifiying original array.   Syntax:- slice(startIndex,endIndex)
 console.log("B ", myArr);  [0,1,2,3,4,5]       //slice does not manipulates original array
 
 
 const myn2 = myArr.splice(1, 3)
-console.log("C ", myArr); [1,2,3]
+console.log("C ", myArr); [1,2,3]         //splice() is used to remove/replace elements of array.  Syntax:- splice(start index, deleteCount, item1,item2,...) 
 console.log(myn2);  [0,4,5]               //So, splice manipulates original array // So, it takes away (removes) portion of range from the original array.  
