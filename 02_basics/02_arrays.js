@@ -21,7 +21,7 @@ console.log(real_another_array);     //[ 1, 2, 3, 4, 5, 6, 7, 6, 7, 4, 5]   //Ac
 
 
 
-console.log(Array.isArray("Vaibhav"))    //false   
+console.log(Array.isArray("Vaibhav"))    //false   //isArray is a static method determines whether the passed value is an Array.
 console.log(Array.from("Vaibhav"))   //[  'V', 'a', 'i','b', 'h', 'a','v']     //converts whatever String or object or whatever to Array
 console.log(Array.from({name: "vaibhav"})) // interesting  //Output: []     //because it does not know that whether convert it to keys array or elements array
 
