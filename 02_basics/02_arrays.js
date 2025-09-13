@@ -31,3 +31,7 @@ let score3 = 300
 
 console.log(Array.of(score1, score2, score3));  //returns a new array having given set of elements(i.e. whatever elements : variables or arrays or whatever)
  // [100, 200, 300]
+
+
+//..........
+//console.log( Array.isArray(Array.prototype) );  //true  // Little known fact: Array.prototype itself is an array
