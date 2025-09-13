@@ -35,3 +35,6 @@ console.log(Array.of(score1, score2, score3));  //returns a new array having giv
 
 //..........
 //console.log( Array.isArray(Array.prototype) );  //true  // Little known fact: Array.prototype itself is an array
+// isArray() is a more robust alternative to instanceof Array because it avoids false positives and false negatives:
+// Array.isArray() rejects values that aren't actual Array instances, even 
+// if they have Array.prototype in their prototype chain — instanceof Array would accept these as it does check the prototype chain.
