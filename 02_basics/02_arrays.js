@@ -39,3 +39,9 @@ console.log(Array.of(score1, score2, score3));  //returns a new array having giv
 // Array.isArray() rejects values that aren't actual Array instances, even 
 // if they have Array.prototype in their prototype chain — instanceof Array would accept these as it does check the prototype chain.
 // console.log(Array.prototype instanceof Array)  //false
+
+
+//Array.from() is a static method creates a new, shallow-copied Array instance from an iterable or array-like object.
+//Iterables are those objects which  can execute [Symbol.Iterable]() method . Example:- Map and Set
+//array-like objects are objects with a length property and indexed elements. Example:- NodeList and arguments object 
+
