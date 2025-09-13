@@ -45,3 +45,15 @@ console.log(Array.of(score1, score2, score3));  //returns a new array having giv
 //Iterables are those objects which  can execute [Symbol.Iterable]() method . Example:- Map and Set
 //array-like objects are objects with a length property and indexed elements. Example:- NodeList and arguments object 
 
+
+//Array.of() is a static method creates a new Array instance from a variable number of arguments, regardless of number or type of the arguments.
+Array.of(1);       // [1]   Difference btw Array.of() and Array() constructor is in handling of single element as Array(2) gives array of 2 empty items/slots
+Array.of(1, 2, 3);        // [1, 2, 3]
+Array.of(undefined);      // [undefined]
+
+console.log(Array.of("foo", 2, "bar", true));
+// Expected output: Array ["foo", 2, "bar", true]
+
+console.log(Array.of());
+// Expected output: Array []
+
